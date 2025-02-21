@@ -1,0 +1,216 @@
+/* We can also make the variables of styling and resuse them */
+/* example is below:- by creating root */
+
+:root {
+  --box-shadow: 5px 5px 10px 10px rgba(240, 15, 157, 0.5);  /* Fixed RGBA */
+  --bg-color: rgb(40, 47, 97);
+}
+
+body{
+  background-color: rgb(11,26,51);
+  color: white;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/* Navbar --------------------------------------------------*/
+.nav_bar{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.left h2{
+  padding: 16px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav_bar .nav_items{
+  padding: 16px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.nav_bar .nav_items:hover{
+  border-bottom: mediumvioletred 4px solid;
+}
+
+/* home ----------------------------------------------------------- */
+.home{
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home .left{
+  /* background-color: var(--bg-color); */
+  width:610px;
+  text-align: center; 
+  padding:30px;
+  border-radius: 10px;
+  border: mediumvioletred solid 2.5px;
+  box-shadow: var(--box-shadow);
+  animation: animated-2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.btn-outline-pdf{
+  border-radius: 5px;
+  border: solid 1px mediumvioletred;
+  color: white;
+}
+.btn-outline-pdf:hover{
+  border-radius: 5px;
+  border: solid 1px mediumvioletred;
+  background-color: mediumvioletred;
+  color: white;
+}
+
+.home .right .img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .right .img img{
+  height: 300px;
+  width: 300px;
+  border: solid 1px;
+  border-radius: 50%;
+  animation: animated;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animated{
+  0%{
+    border-color:blue;
+    transform: translate(0, 10px);
+    box-shadow: 10px 10px 100px 50px blue;
+
+  }
+  25%{
+    border-color:rgb(82, 8, 134);
+    box-shadow: 10px 10px 100px 50px rgb(204, 204, 141);
+  }
+  50%{
+    border-color:rgb(77, 211, 86);
+    transform: translate(0, 0px);
+    box-shadow: 10px 10px 100px 50px rgb(94, 159, 98);
+
+  }
+  75%{
+    border-color:rgb(53, 224, 221);
+    box-shadow: 10px 10px 100px 50px rgb(53, 224, 221);
+  }
+  100%{
+    border-color:mediumvioletred;
+    transform: translate(0, 10px);
+    box-shadow: 10px 10px 100px 50px rgb(236, 120, 193);
+
+  }
+}
+
+@keyframes animated-2{
+  0%{
+    border-color:mediumvioletred;
+    box-shadow: 2px 2px 10px 5px mediumvioletred;
+  }
+  25%{
+    border-color:rgb(144, 53, 204);
+    box-shadow: 2px 2px 10px 5px rgb(131, 77, 211);
+  }
+  75%{
+    border-color:rgb(53, 224, 221);
+    box-shadow: 2px 2px 10px 5px rgb(53, 53, 224);
+  }
+}
+
+/* experience---------------------------------------------------------- */
+
+.ex {
+  width: 900px;
+}
+
+.ex-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-color);
+  margin: 50px;
+  padding: 30px;
+  width: 800px;
+  border-radius: 10px;
+  border: 2px solid rgb(235, 38, 163);
+  box-shadow: var(--box-shadow);
+}
+
+
+/* skills ------------------------------------------------------------------------------*/
+
+.skills {
+  width: 900px;
+}
+
+.skills .items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* width: 800px; */
+  margin: auto;
+  /* background-color: yellow; */
+}
+
+.skills .items .item {
+  width: calc(33.33%);
+  background-color: black;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid mediumvioletred;
+  box-shadow: var(--box-shadow);
+}
+
+.skills .items .item img {
+  width: 70px;
+}
+
+
+/* Project -------------------------------------------------------------- */
+
+.card{
+  box-shadow: var(--box-shadow);
+}
+
+.btns .code{
+ background-color: mediumvioletred;
+ border: none;
+}
+
+/* Contact ----------------------------------------------------------------------*/
+
+.contact-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:30vh;
+}
+.icons{
+  border: 2.3px solid mediumvioletred;
+  border-radius: 50%;
+  background-color: BLACK;
+  padding: 15px;
+  margin:5px;
+  font-size: 4.5rem;
+}
+
+.icons:hover{
+  box-shadow: var(--box-shadow);
+  background-color: rgb(11, 40, 90);
+  border: 2.3px solid mediumvioletred;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 4rem;
+}

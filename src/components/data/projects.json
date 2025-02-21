@@ -1,0 +1,34 @@
+[
+  {
+    "key": 1,
+    "title": "Stay ~ Here",
+    "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9pJJ__a-ucI4DVBCPDhWOuK2pcbR-fOEH_A&s",
+    "description": "This is a project made using MERN stack",
+    "demo": "https://stay-here-bee.vercel.app/",
+    "source": "https://github.com/krishnasharma8/Backend-project-1"
+  },
+  {
+    "key": 2,
+    "title": "Bharat-Pe Clone",
+    "imageSrc": "https://www.dreamhost.com/blog/wp-content/uploads/2017/11/online_payment.jpg",
+    "description": "This is a project made with complete React js.",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/HarshGuleri/BharatPe_clone"
+  },
+  {
+    "key": 3,
+    "title": "Movie Recommender",
+    "imageSrc": "https://setplex.com/blog/wp-content/uploads/2021/02/video-streaming.jpg",
+    "description": "This is a ai&ml project made using python.",
+    "demo": "https://venerable-speculoos-95a91f.netlify.app/",
+    "source": "https://github.com/HarshGuleri/Movie_Recommender_"
+  },
+  {
+    "key": 4,
+    "title": "Medium-Clone",
+    "imageSrc": "https://miro.medium.com/v2/resize:fit:1024/1*FzfE4uGbJl5SUj13KepkNA.jpeg",
+    "description": "This is a project made with complete React js.",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/HarshGuleri/Backend/tree/main/Assignment/01_MediumClone"
+  }
+]
