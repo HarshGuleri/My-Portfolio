@@ -1,41 +1,42 @@
 [
   {
     "id": 1,
-    "role": "Senior Software Development Engineer SDE - II",
-    "organisation": "Google",
-    "startDate": "Sept, 2023",
-    "endDate": "Present",
-    "location": "CA,United State",
+    "role": "Front-End Engineering Job Simulation",
+    "organisation": "Forage",
+    "startDate": "Jan, 2025",
+    "endDate": "Feb",
+    "location": "Punjab, India",
     "experiences": [
-      "Worked on Google Gmail",
-      "Worked with the Google Bard Team"
+      " Completed the tasks given by company - like to Create a Backpack React Web App.",
+      ""
     ],
-    "imageSrc": "company/google.png"
+    "imageSrc": "company/forage.png"
   },
   {
     "id": 2,
-    "role": "Software Development Engineer SDE - I",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2022",
-    "endDate": "Aug, 2023",
-    "location": "London, UK",
+    "role": "AI Foundations for Everyone",
+    "organisation": "IBM",
+    "startDate": "July, 2024",
+    "endDate": "Sept, 2024",
+    "location": "India",
     "experiences": [
-      "Worked on Windows 10 terminal",
-      "Worked on Window 11 Upcoming features"
+      "Developed foundational skills in AI",
+      "Also have knowledge on how to build and deploy web-based intelligent virtual assistants."
+      
     ],
-    "imageSrc": "company/microsoft.png"
+    "imageSrc": "company/ibm.png"
   },
   {
     "id": 3,
-    "role": "Software Development Engineer - Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2021",
-    "endDate": "Jun, 2022",
-    "location": "Bengluru, India",
+    "role": "Introduction to Cybersecurity",
+    "organisation": "Cisco",
+    "startDate": "Feb, 2024",
+    "endDate": "Apr, 2024",
+    "location": "India",
     "experiences": [
-      "Worked on Nextflix payment system",
-      "Helped to create UI for video player"
+      "Explained common cyber threats, attacks and vulnerabilities.",
+      "Explain how organization can protect their operations against these attacks."
     ],
-    "imageSrc": "company/netflix.png"
+    "imageSrc": "company/cisco.png"
   }
 ]
