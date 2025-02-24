@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer } from 'react';
-import pdf from '../pdf/Ready_resume.docx'
+import pdf from '../pdf/resume.pdf'
 import hero from './data/hero.json';
 import Typed from "typed.js";
 import { useRef } from 'react';
@@ -37,7 +37,7 @@ const Home = () => {
         
       </h1>
       <a href={pdf} 
-      download="resume.pdf"
+      download="../public/resume.pdf"
       className="btn btn-outline-pdf my-3">Download Resume</a>
       </div>
 
